@@ -1,0 +1,21 @@
+bash-4.2$ logstash-plugin install logstash-output-syslog logstash-output-gelf
+Validating logstash-output-syslog
+Validating logstash-output-gelf
+Installing logstash-output-syslog, logstash-output-gelf
+Dec 20, 2017 5:35:42 PM org.apache.maven.wagon.providers.http.httpclient.impl.execchain.RetryExec execute
+INFO: I/O exception (java.net.SocketException) caught when processing request to {s}->https://repo.maven.apache.org:443: Connection timed out (Read failed)
+Dec 20, 2017 5:35:42 PM org.apache.maven.wagon.providers.http.httpclient.impl.execchain.RetryExec execute
+INFO: Retrying request to {s}->https://repo.maven.apache.org:443
+Dec 20, 2017 5:35:46 PM org.apache.maven.wagon.providers.http.httpclient.impl.execchain.RetryExec execute
+INFO: I/O exception (java.net.SocketException) caught when processing request to {s}->https://repo.maven.apache.org:443: Connection timed out (Read failed)
+Dec 20, 2017 5:35:46 PM org.apache.maven.wagon.providers.http.httpclient.impl.execchain.RetryExec execute
+INFO: Retrying request to {s}->https://repo.maven.apache.org:443
+Dec 20, 2017 5:35:58 PM org.apache.maven.wagon.providers.http.httpclient.impl.execchain.RetryExec execute
+INFO: I/O exception (java.net.SocketException) caught when processing request to {s}->https://repo.maven.apache.org:443: Connection timed out (Read failed)
+Dec 20, 2017 5:35:58 PM org.apache.maven.wagon.providers.http.httpclient.impl.execchain.RetryExec execute
+INFO: Retrying request to {s}->https://repo.maven.apache.org:443
+Dec 20, 2017 5:36:27 PM org.apache.maven.wagon.providers.http.httpclient.impl.execchain.RetryExec execute
+INFO: I/O exception (java.net.SocketException) caught when processing request to {s}->https://repo.maven.apache.org:443: Connection timed out (Read failed)
+Dec 20, 2017 5:36:27 PM org.apache.maven.wagon.providers.http.httpclient.impl.execchain.RetryExec execute
+INFO: Retrying request to {s}->https://repo.maven.apache.org:443
+
